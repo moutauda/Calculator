@@ -11,6 +11,15 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        brain.addUnaryOperation(named: "✅") { [weak weakSelf = self] in
+        weakSelf?.displayedText.textColor = UIColor.green
+            
+            return sqrt($0)
+        }
+    }
+    
     @IBOutlet weak var displayedText: UILabel!
     
     var isTapping = false

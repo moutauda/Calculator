@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					8BB049F71F8D062A0042F43C = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NKF42T6RZQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -264,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NKF42T6RZQ;
 				INFOPLIST_FILE = "Test Calc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cgi.Test-Calc";
@@ -276,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NKF42T6RZQ;
 				INFOPLIST_FILE = "Test Calc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cgi.Test-Calc";
@@ -303,6 +306,7 @@
 				8BB04A0C1F8D062B0042F43C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
